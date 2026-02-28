@@ -25,11 +25,22 @@ runs/
 tune_runs/
 tmp*/
 tmp_*/
-conase_distributable_a.csv/
-**/feature_cache/
+!conase_distributable_a.csv/
+!conase_distributable_a.csv/**
+conase_distributable_a.csv/conase_distributable_a.csv
+!checkpoints_text_reset/
+checkpoints_text_reset/*
+!checkpoints_text_reset/feature_cache/
+!checkpoints_text_reset/feature_cache/**
+!checkpoints_text_mpsa_8h/
+checkpoints_text_mpsa_8h/*
+!checkpoints_text_mpsa_8h/feature_cache/
+!checkpoints_text_mpsa_8h/feature_cache/**
 *.joblib
 *.pt
 *.wav
+!checkpoints_text_reset/feature_cache/**/*.pt
+!checkpoints_text_mpsa_8h/feature_cache/**/*.pt
 
 # OS/editor
 .DS_Store
