@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Data and outputs
+data/audio_cache/
+data/clips/
+checkpoints/
+checkpoints*/
+runs/
+tune_runs/
+tmp*/
+tmp_*/
+conase_distributable_a.csv/
+**/feature_cache/
+*.joblib
+*.pt
+*.wav
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
